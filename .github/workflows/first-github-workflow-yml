@@ -1,6 +1,7 @@
 name: Run Shell Commands
 on:
  push: 
+   branches : ['main']
 
 jobs:
   run-shell-command:
